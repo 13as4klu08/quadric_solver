@@ -1,1 +1,1 @@
-# quadric_solver
+# Quadric Solver
