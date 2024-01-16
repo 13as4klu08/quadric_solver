@@ -13,8 +13,8 @@ C = float(input("Entrer la valeur de c: "))
 print("----------------------------------")
 delta = (B**2-4*A*C)
 print(Fore.WHITE + f"Le discriminant delta est donc : b²-4ac")
-print(f"D'ou delta = {B}²-4*{A}*{C}")
-print(f"Alors delta = {B**2}-{4*A*C}")
+print(f"D'ou delta = {B}² - 4*{A}*{C}")
+print(f"Alors delta = {B**2} - {4*A*C}")
 print(f"On a alors = {B**2-4*A*C}")
 
 if B**2-4*A*C > 0:
@@ -23,14 +23,17 @@ if B**2-4*A*C > 0:
     print(f"x2 = (-b+(racine de delta)/2a = {-B}+{np.sqrt(delta)}/{2*A} = {(-B+np.sqrt(delta))/(2*A)}")
     print("--------------------------------------------------------------")
     print(Fore.GREEN + f"Donc l'ensemble des solutions est: x1={(-B-np.sqrt(delta))/(2*A)} et x2={(-B+np.sqrt(delta))/(2*A)}")
+    print(" ")
     input(Back.RED + "Press Enter to exit")
 elif B**2-4*A*C == 0:
     print("Donc l'equation admet une seul solutions")
     print(f"x = -b/2a = {-B}/{2*A} = {-B/2*A}")
     print("--------------------------------------------------------------")
     print(Fore.GREEN + f"Donc la solution est x ={-B}/{2*A}")
+    print(" ")
     input(Back.RED + "Press Enter to exit")
 else:
     print(Fore.RED + "La solution n'admet aucune solution car delta est negative")
+    print(" ")
     input(Back.RED + "Press Enter to exit")
     
