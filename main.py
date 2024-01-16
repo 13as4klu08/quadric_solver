@@ -15,7 +15,7 @@ delta = (B**2-4*A*C)
 print(Fore.WHITE + f"Le discriminant delta est donc : b²-4ac")
 print(f"D'ou delta = {B}² - 4*{A}*{C}")
 print(f"Alors delta = {B**2} - {4*A*C}")
-print(f"On a alors = {B**2-4*A*C}")
+print(f"On a alors delta = {B**2-4*A*C}")
 
 if B**2-4*A*C > 0:
     print("Donc l'equation admet 2 solutions")
